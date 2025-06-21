@@ -1,0 +1,61 @@
+/* reset.css */
+
+/* Modelo de caja */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Eliminar estilos de lista por defecto */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Eliminar comillas por defecto */
+blockquote,
+q {
+    quotes: none;
+}
+
+/* Eliminar espacios en tablas por defecto */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Establecer tamaño de fuente y altura de línea por defecto */
+body {
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* Establecer color de fondo por defecto */
+body {
+    background-color: #fff;
+}
+
+/* Establecer color de texto por defecto */
+body {
+    color: #000;
+}
+
+/* Asegurar que todas las imágenes sean responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Eliminar contorno de foco por defecto */
+:focus {
+    outline: none;
+}
